@@ -1,0 +1,232 @@
+/* Unless specified in a class or id this will control all elements box-sizing, padding, margins on the page this style sheet is linked to */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* controls the body of the page. Currently we are setting background color only */
+body {
+    background-color: #d9dcd6;
+}
+
+/* controls the header class and sets padding, font, background and font color of the class */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* changes the default font size of h1 to a specific size and controls the display to be inline-block */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* section inside header class will be controlled by this*/
+.sec1 {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* unorder list inside header section will have no markingg like bullet points or numbers with this setting*/
+.ul1 {
+    list-style-type: none;
+}
+
+/* list item inside headder section ul will be have a margin set and be displayed inline-block makes menu options line up left to right*/
+.ul1 li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* all anchor tags will be color of white and set a text-decoration of none*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* any paragraph text will be set to a specific font size */
+p {
+    font-size: 16px;
+}
+
+/* controls image right under header area and sets image url. Great way to have code on multiple pages by setting image url in style instead on every page. This way its quick to replace if you want too someday. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* this class allows to float image to the left of a text area */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+/* this class allows to float image to the right of a text area */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* class controls diplay in a set section of the page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class controls diplay in a set section of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Benefit section has three seperate areas this controls the top class */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefit section has three seperate areas this controls the middle class */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Benefit section has three seperate areas this controls the bottom class */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* change the h3 defualts and specifies margin */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Removed because all h3 can be controlled by one style tag 
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}*/
+
+/* Removed because all h3 can be controlled by one style tag  
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}*/
+
+/* sets how we want to use this image */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets how we want to use this image */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets how we want to use this image */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Content section has three seperate areas this controls the top class */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Content section has three seperate areas this controls the middle class */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Content section has three seperate areas this controls the bottom class */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets how we want to use this image */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* sets how we want to use this image */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* sets how we want to use this image */ 
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* changes the h2 defualts and specifies margin */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* /* Removed because all h2 can be controlled by one style tag  
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}*/
+
+/* /* Removed because all h2 can be controlled by one style tag 
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}*/
+
+/* sets the footer style */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* since we used h2 and h3 already changed to h4 and set the font size of it here */
+h4 {
+    font-size: 20px;
+}
